@@ -1,0 +1,49 @@
+@import url('varaibles.css');
+
+.containner-2 {
+    background-color: var(--bg);
+    
+  }
+
+  .section-text {
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+  }
+
+  .div-text {
+    display: flex;
+    width: 519px;
+    align-items: center;
+    align-content: center;
+   gap: 25px 35px;
+   flex-wrap: wrap;
+  }
+
+  h1 {
+    color: var(--text-color);
+    font-family: var(--ff);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px; /* 133.333% */
+    letter-spacing: 0.2px;
+  }
+
+  strong {
+    color: var(--primary-color) ;
+    
+  }
+
+  .student-img {
+    display: flex;
+    width: 593px;
+    height: 624px;
+   padding: 88.69px 45.656px 0px 53.684px;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   flex-shrink: 0;
+  }
+
+

@@ -2,12 +2,18 @@
 
 .containner {
   background-color: var(--bg);
+  
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 .logo-text {
     color: var(--text-color);
    /* h5 */
-   font-family: Montserrat;
+   font-family: 'Montserrat', sans-serif;
    font-size: 16px;
    font-style: normal;
    font-weight: 700;
@@ -21,19 +27,31 @@
    justify-content: center;
    align-items: center;
    gap: 10px;
-   list-style-type: none;
+   list-style-type: none;  
   
     
 }
 
+
 a {
-    
+  
+    color: var( --second-tx-color);
     text-decoration: none;
 }
 
 .btn-nav {
   border-radius: 25px;
-  background: var(--light-background-color, #FFF);
+  background: var(--light-background-color);
   padding: 6px 24px;
+
+  color: var(--text-color);
+
+/* btn-text */
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 200% */
+letter-spacing: 0.2px;
 
 }
