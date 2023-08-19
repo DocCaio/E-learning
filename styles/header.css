@@ -1,12 +1,39 @@
 @import url('varaibles.css');
 
 .containner {
-background-color: var(--bg);
+  background-color: var(--bg);
+}
+
+.logo-text {
+    color: var(--text-color);
+   /* h5 */
+   font-family: Montserrat;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 24px; /* 150% */
+   letter-spacing: 0.1px;
+}
+
+.list-nav {
+   display: inline-flex;
+   padding: 10px 32px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   list-style-type: none;
+  
+    
+}
+
+a {
+    
+    text-decoration: none;
 }
 
 .btn-nav {
-border-radius: 25px;
-background: var(--light-background-color, #FFF);
-padding: 6px 24px;
+  border-radius: 25px;
+  background: var(--light-background-color, #FFF);
+  padding: 6px 24px;
 
 }
