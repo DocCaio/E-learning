@@ -2,13 +2,18 @@
 
 .containner-2 {
     background-color: var(--bg);
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .section-text {
     display: flex;
     justify-content: space-around;
-   align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
   }
 
   .div-text {
@@ -16,8 +21,8 @@
     width: 519px;
     align-items: center;
     align-content: center;
-   gap: 25px 35px;
-   flex-wrap: wrap;
+    gap: 25px 35px;
+    flex-wrap: wrap;
   }
 
   h1 {
@@ -46,15 +51,18 @@
     flex-shrink: 0;
   }
 
-;
+
 
 
   .div-btn {
-    display: inline-flex;
-    padding: 10px 40px;
+    display: inline-flex;    
     justify-content: center;
     align-items: center;
     gap: 10px;
+    padding: 10px 0px;
+    
+    
+    
   }
 
   .btn-blue {
@@ -81,10 +89,10 @@
 
   .div-img-check {
     display: inline-flex;
-padding: 12px;
-justify-content: center;
-align-items: center;
-gap: 10px;
+   padding: 12px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
   }
 
 
