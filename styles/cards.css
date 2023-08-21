@@ -24,9 +24,18 @@
    text-align: center;
    align-items: center;
    
+   
 }
 
 .img-cards {    
+    display: flex;
+    width: 72px;
+   height: 72px;
+    padding: 4px;
+   flex-direction: column;
+   justify-content: center;
+    align-items: center;
+   gap: 10px;
     border-radius: 50px;
     background: var(--primary-color);
 
@@ -45,4 +54,19 @@ font-style: normal;
 font-weight: 700;
 line-height: 24px; /* 150% */
 letter-spacing: 0.1px;
+}
+
+.text-card {
+
+color: var(--light-text-color, #FFF);
+text-align: center;
+
+/* paragraph */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+
 }
