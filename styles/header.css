@@ -8,7 +8,9 @@
 nav {
     display: flex;
     justify-content: space-around;
+    padding: 2em;
 }
+
 
 .logo-text {
     color: var(--text-color);
