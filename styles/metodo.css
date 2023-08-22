@@ -12,13 +12,18 @@
     justify-content: space-around;
 }
 
-.dark-card { 
-  padding: 24px;  
+.dark-card {     
  border-radius: 25px;
  background: var(--dark-background, #252B42);
 
  /* Accentuate drop shadow */
  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+
+ display: flex;
+width: 510px;
+padding: 24px;
+align-items: flex-start;
+gap: 24px;
  
 }
 
@@ -29,9 +34,17 @@ background: var(--primary-color-tonal, #D4EAF6);
 }
 
 .dark-card-2 , .dark-card-3 {
-padding: 24px; 
+    display: flex;
+    width: 510px;
+    padding: 24px;
+    align-items: flex-start;
+    gap: 24px;
 
 }
+
+
+
+
 
 .light-h3 {
     color: var(--light-text-color);
@@ -42,6 +55,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 24px; /* 150% */
 letter-spacing: 0.1px;
+
 }
 
 .light-p {

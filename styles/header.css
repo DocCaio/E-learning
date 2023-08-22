@@ -5,6 +5,12 @@
   
 }
 
+.containner div {
+  display: inline-flex;
+align-items: center;
+gap: 10px;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
