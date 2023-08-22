@@ -19,8 +19,17 @@ justify-content: space-around;
 }
 
 
-h5 {
-    color: var(--text-color);
+h4 {
+    color: var(--text-color);  
+    
+
+/* h4 */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
    
 
 /* h5 */
@@ -37,18 +46,37 @@ letter-spacing: 0.1px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto;    
+    
   }
 
 
   .grid-item img {
     max-width: 100%;
     max-height: 100%;
+    
   }
 
 .grid-item {
-    display: flex;    
-    
+    display: flex;     
     align-items: center;
     gap: 13px;
+    border-radius: 8px;
+    background: var(--light-background-color, #FFF);
+
+    /* Accentuate drop shadow */
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.lessons-card span {
+  color: var(--muted-color, #BDBDBD);
+text-align: center;
+
+/* small */
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+letter-spacing: 0.2px;
 }

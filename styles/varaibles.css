@@ -2,6 +2,7 @@
  @import url('main.css');
  @import url('cards.css');
  @import url('classes.css');
+ @import url('metodo.css');
  
  * {
     margin: 0;
@@ -12,6 +13,7 @@
  :root {
     --dark-background: #252B42;
     --light-background-color:#fff;
+    --muted-color: #BDBDBD;
     --bg:#E1F4FF;
     --text-color:#252B42;
     --second-tx-color:#737373;   

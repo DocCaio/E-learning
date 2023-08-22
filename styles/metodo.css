@@ -1,0 +1,26 @@
+@import url('varaibles.css');
+
+.metodo img {
+    border-radius: 25px 0px;
+    background: #D9D9D9;
+}
+
+.metodo-card {
+
+    display: flex;
+
+  padding: 24px;
+  align-items: flex-start;
+   gap: 24px;
+
+    border-radius: 25px;
+background: var(--dark-background, #252B42);
+
+/* Accentuate drop shadow */
+box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.metodo-card-link {
+    display: flex;
+    flex-direction: column;
+}
