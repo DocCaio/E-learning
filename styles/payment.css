@@ -1,0 +1,31 @@
+@import url('varaibles.css');
+
+.payment {
+    background-color: var( --dark-background);
+}
+
+.payment h2 {
+   color: var(--light-text-color, #FFF);
+   text-align: center;
+
+   /* h1 */
+  font-family: Open Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px; /* 125% */
+  letter-spacing: 0.2px;
+}
+
+.payment p {
+    color: var(--light-text-color, #FFF);
+text-align: center;
+
+/* paragraph */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+}

@@ -43,7 +43,7 @@
    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
 }
 
-h3{
+.div-cards  h3 {
     color: var(--light-text-color, #FFF);
     text-align: center;
 
