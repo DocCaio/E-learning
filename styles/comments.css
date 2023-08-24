@@ -3,3 +3,35 @@
 .Comment {   
     text-align: center;
 }
+
+.figma {    
+    margin-top: 10px;
+}
+
+
+.join {
+    background: var(--tonal-background, #E1F4FF);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.join  button {
+    display: inline-flex;
+padding: 10px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 24px;
+background: var(--primary-color, #31A0FE);
+
+/* Light drop shadow */
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+
+
+.join  button >  a {
+   color: var(--light-text-color);
+}
