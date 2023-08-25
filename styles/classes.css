@@ -46,7 +46,7 @@ letter-spacing: 0.1px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     max-width: 800px;
-    margin: 0 auto;    
+    margin: 10px auto;    
     
   }
 

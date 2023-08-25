@@ -2,6 +2,7 @@
 
 .payment {
     background-color: var( --dark-background);
+    padding:  3rem 0;
  
     
 }
@@ -135,7 +136,7 @@ border-radius: 25px;
 background: var(--muted-color, #BDBDBD);
 }
 
-/*Blue card*/
+/*Dark card*/
 
 .payment-card-dark {
   display: inline-flex;
