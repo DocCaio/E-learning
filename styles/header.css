@@ -2,6 +2,7 @@
 
 .containner {  
   background-color: var(--bg);
+  transition: 3s;
   
 }
 
@@ -27,6 +28,7 @@ nav {
    font-weight: 700;
    line-height: 24px; /* 150% */
    letter-spacing: 0.1px;
+   transition: 3s;
 }
 
 .list-nav {
@@ -50,6 +52,7 @@ a {
   
     color: var( --second-tx-color);
     text-decoration: none;
+    transition: 3s;
 }
 
 .btn-nav {
@@ -58,6 +61,7 @@ a {
   padding: 6px 24px;
 
   color: var(--text-color);
+  transition: 3s;
 
 /* btn-text */
 font-family: 'Montserrat', sans-serif;

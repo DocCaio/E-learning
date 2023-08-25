@@ -29,3 +29,23 @@
     --ff:'Open Sans', sans-serif;
   
  }
+
+ input[type="checkbox"] {
+   display: none;
+ }
+
+ .bi {
+   font-size: 1.3rem;
+   cursor: pointer;
+ }
+
+ .bi-moon {
+   display: none;
+ }
+
+ /* Dark  Theme*/
+ .dark,
+ .dark header {
+   background-color: var(--dark-background);
+   color: var(--light-text-color) ;
+ }

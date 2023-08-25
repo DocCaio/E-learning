@@ -18,5 +18,5 @@ list-style-type: none;
     background: var(--tonal-background, #E1F4FF);
     text-align: center;
     padding: 25px;
-    
+    transition: 3s;
 }
