@@ -1,6 +1,6 @@
 @import url('varaibles.css');
 
-.containner {
+.containner {  
   background-color: var(--bg);
   
 }
@@ -13,7 +13,7 @@ gap: 10px;
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;    ;
     padding: 2em;
 }
 

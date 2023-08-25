@@ -2,10 +2,10 @@
 
 .containner-2 {
     background-color: var(--bg);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: flex;    
+    justify-content: center;
     align-items: center;
+   
     
   }
 

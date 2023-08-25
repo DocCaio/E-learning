@@ -2,6 +2,7 @@
 
 .Comment {   
     text-align: center;
+    
 }
 
 .figma {    
@@ -13,7 +14,8 @@
     background: var(--tonal-background, #E1F4FF);
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;    
+    height: 329px;
 }
 
 .join  button {

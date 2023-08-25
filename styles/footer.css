@@ -1,0 +1,22 @@
+@import url('varaibles.css');
+
+
+.media {
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;    
+}
+
+.list-footer {
+
+list-style-type: none;
+
+}
+
+.Right {
+    background: var(--tonal-background, #E1F4FF);
+    text-align: center;
+    padding: 25px;
+    
+}
