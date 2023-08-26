@@ -45,7 +45,8 @@
 
  /* Dark  Theme*/
  .dark,
- .dark header {
+ .dark header
+  {
    background-color: var(--dark-background);
    color: var(--light-text-color) ;
  }
