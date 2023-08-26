@@ -20,9 +20,11 @@
     --primary-color-tonal: #D4EAF6;
     --secondary-color-tonal-1: #D6F1CC;
     --secondary-color-tonal-2: #F3DCD5;
+    --dark-orange: #EC5C2E;
     --muted-color: #BDBDBD;
     --bg:#E1F4FF;
     --text-color:#252B42;
+    --total-dark:#394264;
     --light-text-color:#fff;
     --second-tx-color:#737373;   
     --primary-color:#31A0FE;
@@ -39,14 +41,51 @@
    cursor: pointer;
  }
 
+ .bi-sun {
+  display: block;
+}
+
+
  .bi-moon {
    display: none;
  }
 
  /* Dark  Theme*/
  .dark,
- .dark header
+ .dark header 
+   
   {
    background-color: var(--dark-background);
    color: var(--light-text-color) ;
  }
+  .dark .bi-sun{
+  display: none;
+}
+
+
+ .dark .bi-moon {
+  display: block;
+}
+
+ .dark main {
+  background-color: var(--total-dark);
+  color: var(--light-text-color);
+ }
+
+.dark button {
+  background-color: var(--dark-orange);
+  color: var(--light-text-color);
+}
+.dark a ,
+.dark p ,
+.dark span,
+.dark h2,
+.dark h1 { 
+    
+    color: var(--light-text-color);
+}
+
+.dark .payment-card , .dark .payment-card-dark , .dark .join , .dark .cards , .dark .Right {
+  background-color: var(--total-dark);
+
+}
