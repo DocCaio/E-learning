@@ -50,6 +50,14 @@
    display: none;
  }
 
+ #light-mode-btn {
+  display: block;
+ }
+
+ #dark-mode-btn {
+  display: none;
+ }
+
 
  /* Dark  Theme*/
  .dark,
@@ -90,6 +98,16 @@
   background-color: var(--total-dark);
 
 }
+
+
+.dark #light-mode-btn {
+  display: none ;
+ }
+
+.dark #dark-mode-btn {
+  display: block;
+ }
+
 
 
 

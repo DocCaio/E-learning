@@ -1,5 +1,5 @@
 const changeThemeBtn = document.querySelector("#change-theme");
-const changeLogo = document.querySelector("#light-mode-btn");
+
 
 // Togle dark mode
 function toggleDarkMode() {
@@ -29,10 +29,7 @@ changeThemeBtn.addEventListener("change", function () {
     if(document.body.classList.contains("dark")) {
         localStorage.setItem("dark , 1");
     }
-});
+});           
+          
 
-
-
-
-
-
+               
