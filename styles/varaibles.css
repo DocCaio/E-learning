@@ -50,6 +50,7 @@
    display: none;
  }
 
+
  /* Dark  Theme*/
  .dark,
  .dark header 
@@ -89,3 +90,7 @@
   background-color: var(--total-dark);
 
 }
+
+
+
+
