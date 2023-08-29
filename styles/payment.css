@@ -132,9 +132,9 @@ hr {
 }
 
 .grey-item {   
-border-radius: 25px;
-background: var(--muted-color, #BDBDBD);
-margin-right: 1rem;
+   border-radius: 25px;
+   background: var(--muted-color, #BDBDBD);
+   margin-right: 1rem;
 }
 
 /*Dark card*/

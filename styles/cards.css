@@ -48,7 +48,7 @@
 .div-cards  h3 {
     color: var(--light-text-color, #FFF);
     text-align: center;
-    transition: 3s;
+    
 
 /* h3 */
 font-family: Montserrat;
@@ -63,7 +63,7 @@ letter-spacing: 0.1px;
 
 color: var(--light-text-color, #FFF);
 text-align: center;
-transition: 3s;
+
 
 /* paragraph */
 font-family: Montserrat;

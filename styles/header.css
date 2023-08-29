@@ -2,8 +2,7 @@
 
 .containner {  
   background-color: var(--bg);
-  transition: 3s;
-  
+ 
 }
 
 .containner div {
