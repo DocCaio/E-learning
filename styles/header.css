@@ -51,7 +51,7 @@ a {
   
     color: var( --second-tx-color);
     text-decoration: none;
-    
+   
 }
 
 .btn-nav {
@@ -60,7 +60,7 @@ a {
   padding: 6px 24px;
 
   color: var(--text-color);
- 
+  
 
 /* btn-text */
 font-family: 'Montserrat', sans-serif;
