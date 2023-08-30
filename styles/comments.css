@@ -20,7 +20,7 @@
     transition: 3s;
 }
 
-.join  button {
+.join  a {
     display: inline-flex;
 padding: 10px 32px;
 justify-content: center;
@@ -37,7 +37,7 @@ box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
 
 
 
-.join  button >  a {
+.join  a {
    color: var(--light-text-color);
    
 }

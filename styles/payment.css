@@ -113,7 +113,7 @@ hr {
     letter-spacing: 0.2px;
 }
 
-.payment-card button {
+.payment-card a {
   display: flex;
   padding: 6px 24px;
   justify-content: center;
@@ -166,7 +166,7 @@ hr {
 }
 
 
-.payment-card-dark button {
+.payment-card-dark a {
    display: flex;
    padding: 6px 24px;
    justify-content: center;
@@ -180,6 +180,6 @@ hr {
    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
 }
 
-.payment-card-dark button > a {
+.payment-card-dark  a {
     color: var(--light-text-color);
 }
