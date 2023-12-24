@@ -1,14 +1,14 @@
 @import url('varaibles.css');
 
-.containner {  
+.container {  
   background-color: var(--bg);
  
 }
 
-.containner div {
+.container div {
   display: inline-flex;
-align-items: center;
-gap: 10px;
+  align-items: center;
+ gap: 10px;
 }
 
 nav {
