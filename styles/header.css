@@ -8,7 +8,7 @@
 .container div {
   display: inline-flex;
   align-items: center;
- gap: 10px;
+  gap: 10px;
 }
 
 nav {

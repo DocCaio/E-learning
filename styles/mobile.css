@@ -1,0 +1,37 @@
+@import url('varaibles.css');
+
+@media (max-width: 600px) {
+    .container {
+      display: none;
+    }
+
+    .student-img {
+        display: none;
+    }
+
+    .section-text {
+        text-align: start;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .logo-text {        
+       font-size: 16px;       
+       font-weight: 400;
+     
+       
+    }
+
+    .div-text {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    h1 {       
+        font-size: 32px;        
+        font-weight: 800;
+        
+       
+        
+      }
+  }
