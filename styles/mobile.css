@@ -34,4 +34,31 @@
        
         
       }
+
+      .cards {
+        display: flex;
+        flex-direction: column;        
+        align-items: center;
+      }
+
+      .div-news {
+        display: flex;
+        align-items: center;
+      }
+
+      .grid-container {       
+           display: flex;
+           flex-direction: column;
+           width: 80%; 
+           text-align: center;
+                 
+            
+          
+      }
+
+     .mod {
+        display: flex;            
+        flex-direction: column;
+        width: 90%;
+     }
   }
