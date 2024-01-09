@@ -1,5 +1,5 @@
 # E-learning
- E-learning Loaging page
+ E-learning Loaging page , this website is about an online school.
 
 ## Technologies used
 
@@ -9,7 +9,8 @@
   # :hammer: Project features
 
 - `functionality `: Moon and sun button changes page theme (Dark and light page)
-
+- Responsive.
+- 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20finished&color=GREEN&style=for-the-badge)
 
 ### Print
