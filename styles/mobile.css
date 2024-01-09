@@ -80,7 +80,12 @@
      }
 
      .mod-link h2 {
-      font-size: 2rem;      
+      font-size: 2rem;
+      padding: 0 1rem;      
+     }
+
+     .mod-link p {      
+      padding: 0 1rem;      
      }
 
       .dark-card , .dark-card-2 ,.dark-card-3{
@@ -183,7 +188,7 @@
       display: none;
     }
 
-    .light-mode-btn , .dark-mode-btn {
+    #light-mode-btn  #dark-mode-btn {
       display: none;
 
     }
