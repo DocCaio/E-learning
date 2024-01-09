@@ -1,10 +1,11 @@
 @import url('varaibles.css');
 
-@media (max-width: 600px) {
-    .container {
-      display: none;
-    }
 
+@media (max-width: 600px) {
+  /*Header*/
+
+ 
+   
     /*Main*/
 
     .student-img {
@@ -74,8 +75,12 @@
         width: 100%;        
      }
 
+     .mod-link {
+      width: 100%;
+     }
+
      .mod-link h2 {
-      font-size: 2rem;
+      font-size: 2rem;      
      }
 
       .dark-card , .dark-card-2 ,.dark-card-3{
@@ -113,4 +118,79 @@
       padding: 0 2rem;
       
      }
+
+
+
+     #menu {
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 70px;
+      right: 0px;
+      background: #000;
+      transition: 0.6s;
+      z-index: 1000;
+      height: 0px;
+      visibility: hidden;
+      overflow-y: hidden;
+    }
+    #nav.active #menu {
+      height: calc(50vh - 70px);
+      visibility: visible;
+      overflow-y: auto;
+    }
+    #menu a {
+      padding: 1rem 0;
+      margin: 0 1rem;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+    #btn-mobile {
+      display: flex;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border: none;
+      background: none;
+      cursor: pointer;
+      gap: 0.5rem;
+    }
+    #hamburger {
+      border-top: 2px solid;
+      width: 20px;
+    }
+    #hamburger::after,
+    #hamburger::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: currentColor;
+      margin-top: 5px;
+      transition: 0.3s;
+      position: relative;
+    }
+    #nav.active #hamburger {
+      border-top-color: transparent;
+    }
+    #nav.active #hamburger::before {
+      transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+      transform: rotate(-135deg);
+      top: -7px;
+    }
+
+    .logo-text {
+      display: none;
+    }
+
+    .light-mode-btn , .dark-mode-btn {
+      display: none;
+
+    }
+
+    
+     
+   
+
+    
   }

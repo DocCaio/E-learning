@@ -17,10 +17,13 @@
 </head>
 <body class="dark">
    <header class="container">
-    <nav>   
+    <nav id="nav">  
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+          </button> 
         <div>    
          <img id="light-mode-btn" src="img/favicon.svg" alt="icon"> 
-         <img id="dark-mode-btn" src="img/favicon-orange.svg" alt="">      
+         <img id="dark-mode-btn" src="img/favicon-orange.svg" alt="icon">      
          <span class="logo-text">LearnXpert</span>         
          <input type="checkbox" name="change" id="change-theme">
          <label for="change-theme">
@@ -28,7 +31,7 @@
             <i class="bi bi-moon"></i>
          </label>
        </div>       
-        <ul class="list-nav">
+        <ul class="list-nav" id="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
@@ -438,7 +441,7 @@
 </footer>
 
 
-
 <script src="js/main.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html>

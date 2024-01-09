@@ -71,3 +71,8 @@ line-height: 28px; /* 200% */
 letter-spacing: 0.2px;
 
 }
+
+#btn-mobile {
+  display: none;
+}
+
