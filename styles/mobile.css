@@ -5,6 +5,8 @@
       display: none;
     }
 
+    /*Main*/
+
     .student-img {
         display: none;
     }
@@ -35,6 +37,8 @@
         
       }
 
+      /*Cards*/
+
       .cards {
         display: flex;
         flex-direction: column;        
@@ -43,8 +47,16 @@
 
       .div-news {
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        align-items: center;        
       }
+
+      .div-news h2 {
+        
+        font-size: 2rem;
+      }
+
+      /*Cards*/
 
       .grid-container {       
            display: flex;
@@ -59,6 +71,46 @@
      .mod {
         display: flex;            
         flex-direction: column;
-        width: 90%;
+        width: 100%;        
+     }
+
+     .mod-link h2 {
+      font-size: 2rem;
+     }
+
+      .dark-card , .dark-card-2 ,.dark-card-3{
+      width: 100%;
+     }
+
+     .dark-card  h3{
+      font-size: 1rem;          
+     }
+
+     .dark-card  p {
+      font-size: .8rem;
+     }
+
+     /*Payment*/
+
+     .payday {
+      display: flex;
+      flex-direction: column;
+     }
+
+     /*Join*/
+     .join {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+     }
+
+     /*Footer*/
+
+     .media {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      padding: 0 2rem;
+      
      }
   }

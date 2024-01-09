@@ -1,12 +1,12 @@
 @import url('varaibles.css');
 
-.Comment {   
+.Comment {
     text-align: center;
-    padding:  3rem 0;
-    
+    padding: 3rem 0;
+
 }
 
-.figma {    
+.figma {
     margin-top: 10px;
 }
 
@@ -15,29 +15,29 @@
     background: var(--tonal-background, #E1F4FF);
     display: flex;
     justify-content: space-around;
-    align-items: center;    
+    align-items: center;
     height: 329px;
     transition: 3s;
 }
 
-.join  a {
+.join a {
     display: inline-flex;
-padding: 10px 32px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 24px;
-background: var(--primary-color, #31A0FE);
+    padding: 10px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: var(--primary-color, #31A0FE);
 
 
-/* Light drop shadow */
-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    /* Light drop shadow */
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
 }
 
 
 
 
-.join  a {
-   color: var(--light-text-color);
-   
+.join a {
+    color: var(--light-text-color);
+
 }
